@@ -1,0 +1,29 @@
+{
+  "name": "lessonstest",
+  "version": "1.0.0",
+  "description": "Test scripts for lessons.church",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveChurchSolutions/LessonsTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiveChurchSolutions/LessonsTest/issues"
+  },
+  "homepage": "https://github.com/LiveChurchSolutions/LessonsTest#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
+    "@types/faker": "^6.6.9",
+    "cypress": "^10.9.0",
+    "faker": "^6.6.6",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "cypress-localstorage-commands": "^2.2.1"
+  }
+}
