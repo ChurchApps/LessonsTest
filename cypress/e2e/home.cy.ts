@@ -9,7 +9,7 @@ describe("Home screen", () => {
         });
     });
 
-    it("validate contain expected home page texts", () => {
+    it("validate expected home page texts", () => {
         cy.get('#hero').within(() => {
             HEADER_SECTION.forEach( text => { cy.contains(text) });
         });
@@ -133,11 +133,11 @@ const HEADER_SECTION = [
 ]
 
 const STATS_SECTION = [
-    '3',
+    '8',
     'providers',
-    '3',
+    '94',
     'studies',
-    '6',
+    '541',
     'lessons'
 ]
 
@@ -147,7 +147,32 @@ const PROGRAMS_SECTION = [
     'The Ark Church',
     'The Ark Kids - Elementary',
     'Ongoing studies for 3rd-5th graders',
-    'Second Program'
+    'Second Program',
+    'The Ark',
+    'Ark Kids Elementary',
+    'An ongoing curriculum for elementary',
+    'Join Herman, Rusty, and their friends on an adventure of science and faith. Their hijinks will leave your kids (and volunteers) laughing as they deepen their understanding of God’s Word. Included are lessons for both large groups and small groups. Each week you will receive videos, graphics, coloring sheets, and more. The elementary lessons will correspond with the junior curriculum so that everyone in your children’s ministry will be on the same page.',
+    'Ark Kids Junior',
+    'An ongoing curriculum for Early Childhood',
+    'Join Conductor Carl and his friends as they lead your kids on an adventure through God’s word. These imaginative and engaging lessons will have your early childhood kids and volunteers loving every minute of their time at the Train Station. Included are lessons for Kindergarten-3s, 2-year-olds and a story for babies and toddlers. Lessons include videos, graphics, coloring sheets, and both large and small group lessons. The junior lessons tie directly with the corresponding elementary lesson.',
+    'For Ministry Resources',
+    'For Ministry Resources Youth Series',
+    'Free youth ministry curriculum free sermon series, small groups, and devotionals for your youth group',
+    'Free youth ministry curriculum. A year\'s worth of free sermon series, and small groups for your youth group.',
+    'Ozark Christian College',
+    'NextLevel Online',
+    'Free courses from Ozark Christian College',
+    'Free video resources for you and your church. Designed for use in these environments: Adult Studies, Student Ministry, Leadership Training, Personal Growth.',
+    'The vision of Ozark Christian College is to glorify God by evangelizing the lost and edifying Christians worldwide. The mission of Ozark Christian College is to train men and women for Christian service as a degree-granting institution of biblical higher education.',
+    'MyStory.church',
+    'My Story',
+    'Testimony based adult Bible studies.',
+    'We want to help others follow Jesus by meeting in small groups in homes with a heavy focus on what it looks like to actually live out the instructions God has given us in our current world. If you are trying to find out more about Jesus or if you know him but are having trouble following him or if you just like to learn how others are following him you are in the right place.',
+    'High Voltage Kids',
+    'High Voltage Elementary',
+    'An ongoing curriculum for elementary',
+    'Builds strong biblical kids by teaching deep Christian topics in a relevant and palatable way. Empowers volunteers by enabling leaders to teach and relate as opposed to constant discipline and redirection. Saves your budget by being freely available. High Voltage Kids has been creating Elementary Curriculum for nearly 20 years. It is created by Kids Pastors who are weekly involved in the local church, so you know it is highly effective and relevant. To purchase their latest curriculum, please visit',
+    'www.highvoltagekids.com'
 ]
 
 const CONNECT_SECTION = [
