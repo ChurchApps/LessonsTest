@@ -24,6 +24,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "cypress-localstorage-commands": "^2.2.1"
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-real-events": "^1.7.2"
   }
 }

@@ -3,7 +3,7 @@
         "strict": true,
         "target": "es5",
         "lib": ["es5", "dom"],
-        "types": ["cypress", "node", "cypress-localstorage-commands", "@testing-library/cypress"]
+        "types": ["cypress", "node", "cypress-localstorage-commands", "@testing-library/cypress", "cypress-real-events"]
     },
     "include": ["**/*.ts"]
 }
